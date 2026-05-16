@@ -1,0 +1,56 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data — Kaggle verisi repoda olmamalı
+data/raw/
+data/processed/
+data/cleaned/
+*.csv
+
+# Model artifacts
+models/
+*.joblib
+*.pkl
+*.h5
+
+# Reports — figürler kalsın ama büyük çıktılar gitmesin
+reports/figures/*.tmp
+
+# Kişisel rapor / TODO / kullanım notları klasörü — public repoya gitmesin
+report_project_template_and_user_guide/
+
+# Logs
+*.log
+
+# OS / editor temp files
+*~
+.~lock.*
